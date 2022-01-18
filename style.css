@@ -1,11 +1,10 @@
 .intro{
     min-height: 500px;
-    margin-top: 100px;
 }
 
 .intro p{
-    font-size: 30px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.7;
 }
 
 .navbar-brand{
