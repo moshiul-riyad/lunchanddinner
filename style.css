@@ -16,4 +16,17 @@
     text-transform: uppercase;
 }
 
+.our-menu h1{
+    font-family: 'The Nautigal', cursive;
+    font-size: 100px;
+}
+
+.our-menu h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+.our-menu p{
+    font-family: 'Dancing Script', cursive;
+}
+
 
