@@ -27,7 +27,8 @@
               <li><a class="nav-link" href="#menu">Menu</a></li>
               <li><a class="nav-link" href="#gallery">Gallery</a></li>
               <li><a class="nav-link" href="#reservations">Reservations</a></li>
-              <li><a class="nav-link" href="#ordernow">Order Now</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li><a class="nav-link" href="#contact">Order Now</a></li>
             </ul>
           </div>
         </div>
@@ -81,7 +82,7 @@
              </p>
             </div>
             <div class="col-lg-8 h1">
-               <p class="text-center text-xl-end">
+               <p class="text-center text-xl-end pt-5">
                    A collaboration between chef Dinah Blackburn and interior designer Lee Rainwater, Hunter is where East Austin returns to the Old West. Styled like the saloons of yore, here you can sip cactus wine and enjoy the robust taste of farm-to-table American fare without the frills.
                 </p>
             </div>
@@ -146,15 +147,72 @@
      </section>
 
      <!-- RESERVATIONS -->
-     <section class="bg-light">
-      <div class="row">
-        <div class="col">
-          <h2>Reservations</h2>
-          <p>For parties of six or more, we recommend making reservations at least two weeks in advance. For walk-ins, we only seat parties on a first come, first served basis.</p>
+     <section class="container py-5" id="reservations">
+      <div class="row pt-5">
+        <div class="col-md-6  pr-5">
+          <h2 class="pb-3">Reservations</h2>
+          <p class="h3 pb-3">For parties of six or more, we recommend making reservations at least two weeks in advance. For walk-ins, we only seat parties on a first come, first served basis.</p>
         </div>
 
-        <div class="col">
+        <div class="col-md-6">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
           
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Date</label>
+              <input type="date" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Number of Guests</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Comments</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            
+            
+            
+            <div class="col-12">
+              <button class="btn btn-dark" type="submit">Submit form</button>
+            </div>
+          </form>
         </div>
       </div>
      </section>
@@ -162,14 +220,14 @@
 
      <!-- FOOTER/CONTACT -->
 
-     <section id="contact" class="pt-5">
-      <footer class="bg-light text-center text-lg-start">
+     <section id="contact" class="pt-5 bg-dark text-light">
+      <footer class="text-center text-lg-start">
         
         <div class="container p-4">
          
           <div class="row">
            
-            <div class="col-6">
+            <div class="col-6 text-md-start">
               <h5 class="text-uppercase pb-3">Hours</h5>
               <p class="pb-0">Mon-Fri</p>
               <p>10am - 6pm</p>
@@ -177,7 +235,7 @@
               <p>8am - 8pm</p>
             </div>
             
-            <div class="col-6 text-end">
+            <div class="col-6 text-md-end">
               <h5 class="text-uppercase pb-3">Location</h5>
               <p>18107 Telly Canyon Road</p>
               <p>Dallas, TX-75001</p>
@@ -192,7 +250,7 @@
         
         <div class="text-center p-3">
           © Lunch & Dinner. Made by
-          <a class="text-dark" href="https://moshiul-riyad.github.io/portfolio/">MOSHIUL RIYAD</a>
+          <a class="text-light" href="https://moshiul-riyad.github.io/portfolio/">MOSHIUL RIYAD</a>
         </div>
         
       </footer>

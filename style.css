@@ -33,4 +33,12 @@ footer h5, div, a{
     font-family: 'Nunito', sans-serif;
 }
 
+#reservations{
+    min-height: 800px;
+}
+
+#reservations p{
+    font-family: 'Dancing Script', cursive;
+}
+
 
