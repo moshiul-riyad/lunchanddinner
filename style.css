@@ -7,14 +7,17 @@
     line-height: 1.7;
 }
 
+
 .navbar-brand{
     font-family: 'The Nautigal', cursive;
     font-size: 40px;
 }
+
 .navbar-nav{
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
 }
+
 
 .our-menu h1{
     font-family: 'The Nautigal', cursive;
@@ -27,6 +30,18 @@
 
 .our-menu p{
     font-family: 'Dancing Script', cursive;
+}
+
+/* gallery */
+
+#gallery{
+    background: #020202;
+}
+
+#gallery h1{
+    font-family: 'The Nautigal', cursive;
+    font-size: 100px;
+
 }
 
 footer h5, div, a{
@@ -46,5 +61,11 @@ footer h5, div, a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.order-title{
+    font-family: 'Dancing Script', cursive;
+}
+
+
 
 
