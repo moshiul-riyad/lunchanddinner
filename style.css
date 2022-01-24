@@ -1,3 +1,8 @@
+#caro{
+    background-color: #0F0E0E;
+}
+
+
 .intro{
     min-height: 500px;
 }
@@ -17,6 +22,7 @@
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
 }
+
 
 
 .our-menu h1{
